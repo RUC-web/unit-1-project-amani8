@@ -27,3 +27,12 @@ h2 {
       max-width: 50vw;
   }
 }
+
+main {
+  height: 75vh;
+
+}
+
+.home-page-text{
+  background:url("maxresefault.jpg");
+}
