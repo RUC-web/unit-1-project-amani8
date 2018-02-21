@@ -25,11 +25,22 @@ h2 {
   .body-text {
       max-width: 75vw;
   }
+
+  .chapter-page-pic {
+      max-width: 50vw;
+      float: right;
+  }
 }
 
 @media only screen and (min-width: 900px) {
   .body-text {
       max-width: 50vw;
+    }
+
+  .chapter-page-pic {
+          max-width: 40vw;
+          float: right;
+
   }
 }
 
@@ -52,5 +63,39 @@ main {
 
 body {
   background-color: #add8e6;
-  delete this
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav {
+  background-color: #D5D8DC;
+  padding: 1em;
+  width: 100%;
+  box-shadow: 6px 1px 10px 0px rgba(0,0,0,0.75);
+
+}
+
+html * {
+
+    box-sizing: border-box;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+
+}
+
+body {
+    margin: 0;
+}
+
+.chapter-page-pic {
+    max-width: 100%;
 }
