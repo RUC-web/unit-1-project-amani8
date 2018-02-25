@@ -27,6 +27,7 @@ h2 {
 @media only screen and (min-width: 600px) {
   .body-text {
       max-width: 75vw;
+      margin: auto;
   }
 
   .chapter-page-pic {
@@ -101,4 +102,12 @@ body {
 
 .chapter-page-pic {
     max-width: 100%;
+}
+
+.body-text > p {
+    background-color: #D3D3D3;
+}
+
+.chapter-page-pic {
+    max-width: 75%;
 }
