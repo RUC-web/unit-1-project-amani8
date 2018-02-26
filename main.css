@@ -60,7 +60,7 @@ h2 {
 }
 .author-name {
   font-size: 1.5em;
-  color: white;
+  color: black;
   margin: 0;
   font-weight: bold;
 }
@@ -104,10 +104,6 @@ body {
     max-width: 100%;
 }
 
-.body-text > p {
+.body-text p {
     background-color: #D3D3D3;
-}
-
-.chapter-page-pic {
-    max-width: 75%;
 }
